@@ -1,0 +1,60 @@
+.banner{
+    background: url(../img/03.jpg);
+    height:100dvh;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    top: 5px;
+  
+    
+}
+
+/*Form desgin part start*/
+.form_main{
+    height: 500px;
+    width: 400px;
+    background: linear-gradient(#CD5C5C,green,#40E0D0,#DE3163);
+    margin: 80px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all linear .3s;
+
+}
+.form_main:hover{
+    box-shadow: 1px 1px 20px black;
+    transition: all linear .3s;
+
+}
+.form_main form label{
+    color: white;
+}
+
+.form_main form input{
+    padding: 10px 30px 10px 5px;
+    border-radius: 30px;
+}
+.form_main form button{
+    padding: 10px 30px;
+    margin-left: 60px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    background: linear-gradient(#FFBF00,#40E0D0)
+}
+.form_main form label span{
+    color: black;
+    font-size: 20px;
+}
+.form_main form button:hover{
+    /*background: linear-gradient(green);*/
+    box-shadow: 1px 1px 20px white;
+    color: white;
+    transition: all linear .3s;
+
+
+}
+/*Form desgin part end*/
